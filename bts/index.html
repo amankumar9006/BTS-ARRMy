@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTS Army Fan Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>BTS Army 💜</h1>
+    <p><h2>Forever with Bangtan</h2><br>
+         Create by Yuvika 💜 </p>
+  </header>
+
+  <section class="member-names">
+  <h2>Members: RM   • Jin   • Suga   • J-Hope   • Jimin   • V   • Jungkook  </h2>
+</section>
+
+
+  <section class="photo-scroller">
+    <div class="scroll-container" id="scrollContainer">
+      <!-- Add BTS member photos -->
+      <img src="kim.jpg" alt="RM">
+      <img src="kim seokjin.jpg" alt="Jin">
+      <img src="min yoongi.jpg" alt="Suga">
+      <img src="jungkook.jpg" alt="J-Hope">
+      <img src="jimin.jpg" alt="Jimin">
+      <img src="v.jpg" alt="V">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMeSdOsP5gYV5PR5t-0VNjVyhvmQs4TfGkBg&s" alt="Jungkook">
+    </div>
+
+    <section class="download-bts">
+  <h2>📸 Download Photos</h2>
+  <div class="photo-grid">
+    <!-- RM -->
+    <div class="photo-card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbwtuSRKROoteqONbhqzkzPOPOFc0T9XFVpGlywLYx1uhxLShgbQ18gelgx3yXo5HmYs&usqp=CAU" alt="RM">
+      <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVbwtuSRKROoteqONbhqzkzPOPOFc0T9XFVpGlywLYx1uhxLShgbQ18gelgx3yXo5HmYs&usqp=CAU" download class="download-btn">Download</a>
+    </div>
+
+    <!-- Jin -->
+    <div class="photo-card">
+      <img src="https://i.pinimg.com/736x/54/91/f7/5491f74dbec32fea3ebe6e554492f800.jpg" alt="Jin">
+      <a href="https://i.pinimg.com/736x/54/91/f7/5491f74dbec32fea3ebe6e554492f800.jpg" download class="download-btn">Download</a>
+    </div>
+
+    <!-- Suga -->
+    <div class="photo-card">
+      <img src="https://i.pinimg.com/736x/3a/55/b7/3a55b7bc01919bc41d75a6eb4dffedb2.jpg" alt="Suga">
+      <a href="https://i.pinimg.com/736x/3a/55/b7/3a55b7bc01919bc41d75a6eb4dffedb2.jpg" download class="download-btn">Download </a>
+    </div>
+
+    <!-- Add more if you want -->
+  </div>
+</section>
+
+    <section class="join-army">
+  <h2>📝 Join </h2>
+  <form id="joinForm" onsubmit="return joinArmy();">
+    <input type="text" id="fanName" placeholder="Your Name" required>
+    <input type="email" id="fanEmail" placeholder="Your Email" required>
+    <button type="submit">Join Now 💜</button>
+  </form>
+  <div id="join Message"></div>
+</section>
+<section class="bts-songs">
+  <h2>🎶 Songs Playlist</h2>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=gdZLi9oWNZg" target="_blank">Dynamite</a></li>
+    <li><a href="https://www.youtube.com/watch?v=kTlv5_Bs8aw" target="_blank">Boy With Luv (feat. Halsey)</a></li>
+    <li><a href="https://www.youtube.com/watch?v=MBdVXkSdhwU" target="_blank">DNA</a></li>
+    <li><a href="https://www.youtube.com/watch?v=7C2z4GqqS5E" target="_blank">Fake Love</a></li>
+    <li><a href="https://www.youtube.com/watch?v=mPVDGOVjRQ0" target="_blank">Permission to Dance</a></li>
+    <li><a href="https://www.youtube.com/watch?v=WMweEpGlu_U" target="_blank">Butter</a></li>
+    <li><a href="https://www.youtube.com/watch?v=R6YHkkW4ZtI" target="_blank">Yet To Come</a></li>
+  </ul>
+</section>
+
+    <section class="fan-comments">
+  <h2>💬COMMENTS</h2>
+  <div class="comment-box">
+    <input type="text" id="commentInput" placeholder="Type your love for BTS 💜">
+    <button onclick="postComment()">Post</button>
+  </div>
+  <div id="commentsContainer"></div>
+</section>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
